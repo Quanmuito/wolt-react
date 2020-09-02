@@ -1,0 +1,67 @@
+.list-restaurants {
+    margin: 0 -10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+}
+
+.item {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
+.item .item-content:hover {
+    box-shadow: 5px 8px 5px 0 rgba(0, 0, 0, 0.8);
+}
+
+.item-content {
+    border-radius: 6px;
+    display: block;
+    cursor: pointer;
+    background-color: #eaeaea;
+}
+
+.img-res {
+    height: 200px;
+    border-radius: 6px 6px 0 0;
+    overflow: hidden;
+    background: #eaeaea;
+}
+
+.info-res {
+    height: 80px;
+    border-radius: 0 0 6px 6px;
+}
+
+.info-res-basic {
+    padding: 5px 8px;
+}
+
+.name-res {
+    font-size: 16px;
+    font-weight: 700;
+    color: #252525;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.address-res {
+    font-size: 13px;
+    color: #959595;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.promo-res {
+    padding: 0 8px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #187caa;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

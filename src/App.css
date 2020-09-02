@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  font-family: "DM Sans", Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+.float-right {
+  float: right!important;
+}
+
+.float-left {
+  float: left!important;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.wrapper {
+  padding-top: 80px;
+}
+
+/* Header and nav bar */
+
+.container-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  z-index: 99;
+  background-color: #f2f2f2;
+}
+
+/* Content */
+
+.container {
+  position: relative;
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 10px;
+}
+
+/* Introduction */
+
+.introduction {
+  position: relative;
+  height: 120px;
+  padding: 45px;
+  text-align: center;
+}
+
+.title {
+  font-size: 30px;
+  color: #252525;
+  font-weight: 700;
+}
+
+/* Filter */
+
+.search-filter {
+  position: relative;
+  height: 70px;
+  border-bottom: 1px solid #d7d7d7;
+  padding: 10px 0 10px 0;
+}
+
+.nav-filter {
+  height: 50px;
+}
+
+.filter-sort {
+  width: 100px;
+  height: 50px;
+  margin: 0;
+  border: 1px solid #d7d7d7;
+  border-radius: 3px;
+  padding: 5px 5px 5px 8px;
+  font-size: 1rem;
+  color: #252525;
+  background: #fff;
+}
+
+/* Restaurant list */
+
+.list-restaurants-container {
+  position: relative;
+}
+
+.list-restaurants-container a {
+  text-decoration: none;
+}
+
+.opentime-status {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.stt {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: block;
+  cursor: pointer;
+  z-index: 2;
+}
+
+/* Map */
+
+.map {
+  position: relative;
+  margin: 5px;
+  border-radius: 6px;
+}
+
+.map-container {
+  width: 300px;
+  height: 200px;
+  border-radius: 6px;
+}
